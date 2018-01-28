@@ -12,8 +12,9 @@
  "config": [
    {"name": "x_pos", "label": "X Position", "value": 50 },
    {"name": "y_pos", "label": "Y Position", "value": 50 },
-   {"name": "radius", "label": "Circle Diameter", "value": 30 },
-   {"name": "name", "label": "Plant name (what it will be called in Farm Designer)", "value": "Circle Plant" },
-   {"name": "slug", "label": "Plant type", "value": "wheat" }
+   {"name": "radius", "label": "Circle Diameter", "value": 30 }.
+   {"name": "size", "label": "Plant Size", "value": 25 },
+   {"name": "name", "label": "Plant Name (what it will be called in Farm Designer)", "value": "Circle Plant" },
+   {"name": "slug", "label": "Plant Type", "value": "wheat" }
  ]
 }
