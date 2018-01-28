@@ -55,8 +55,8 @@ class Circle():
         #for i in range(num_plants)
         #    angle = i*((math.pi/180)*sep_angle)
         #    self.add_plant(math.cos(angle)*(diameter/2), math.sin(angle)*(diameter/2))
-        #log('{} plants added.'.format(num_plants),
-        #    'success')
+        log('{} plants added.'.format(num_plants),
+            'success')
 
 if __name__ == '__main__':
     farmware_name = 'plant_circle'
