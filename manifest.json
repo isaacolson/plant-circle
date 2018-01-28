@@ -5,7 +5,7 @@
  "description": "Create a circle of plants in the Farm Designer.",
  "version": "1.0.1",
  "min_os_version_major": 6,
- "url": "https://raw.githubusercontent.com/FarmBot-Labs/plant-grid/master/manifest.json",
+ "url": "https://raw.githubusercontent.com/isaacolson/plant-circle/master/manifest.json",
  "zip": "https://github.com/isaacolson/plant-circle/archive/master.zip",
  "executable": "python",
  "args": ["plant-circle-master/plant_circle.py"],
