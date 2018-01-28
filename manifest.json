@@ -6,9 +6,9 @@
  "version": "1.0.1",
  "min_os_version_major": 6,
  "url": "https://raw.githubusercontent.com/FarmBot-Labs/plant-grid/master/manifest.json",
- "zip": "https://github.com/FarmBot-Labs/plant-grid/archive/master.zip",
+ "zip": "https://github.com/isaacolson/plant-circle/archive/master.zip",
  "executable": "python",
- "args": ["plant-grid-master/plant_grid.py"],
+ "args": ["plant-circle-master/plant_circle.py"],
  "config": [
    {"name": "x_pos", "label": "Number of columns", "value": 2 },
    {"name": "y_pos", "label": "Number of rows", "value": 2 },
