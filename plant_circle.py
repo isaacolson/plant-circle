@@ -50,7 +50,7 @@ class Circle():
         'Find max number of plants and add them to the farm designer.'
         circumference = 2*math.pi*(diameter/2)
         num_plants = int(math.floor(circumference/min_dist))
-        sep_angle = 360/num_plants
+        #sep_angle = 360/num_plants
         
         #for i in range(num_plants)
             #angle = i*((math.pi/180)*sep_angle)
