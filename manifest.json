@@ -2,7 +2,7 @@
  "package": "Plant Circle",
  "language": "python",
  "author": "SAC Hydroponics",
- "description": "Create a circle of plants in the Farm Designer.",
+ "description": "Create a circle of plants in the Farm Designer. All variables are in mm.",
  "version": "1.0.1",
  "min_os_version_major": 6,
  "url": "https://raw.githubusercontent.com/isaacolson/plant-circle/master/manifest.json",
@@ -13,9 +13,9 @@
    {"name": "x_pos", "label": "X Position", "value": 500 },
    {"name": "y_pos", "label": "Y Position", "value": 500 },
    {"name": "diameter", "label": "Circle Diameter", "value": 500 },
-   {"name": "min_dist", "label": "Distance Apart", "value": 150 },
+   {"name": "min_dist", "label": "Distance Apart (keep above 50)", "value": 150 },
    {"name": "size", "label": "Plant Size", "value": 25 },
-   {"name": "name", "label": "Plant Name (what it will be called in Farm Designer)", "value": "Circle Plant" },
+   {"name": "name", "label": "Plant Name (what Farm Designer will call it.)", "value": "Circle Plant" },
    {"name": "slug", "label": "Plant Type", "value": "wheat" }
  ]
 }
