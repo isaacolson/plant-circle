@@ -10,10 +10,10 @@
  "executable": "python",
  "args": ["plant-circle-master/plant_circle.py"],
  "config": [
-   {"name": "x_pos", "label": "X Position", "value": 50 },
-   {"name": "y_pos", "label": "Y Position", "value": 50 },
-   {"name": "diameter", "label": "Circle Diameter", "value": 30 },
-   {"name": "min_dist", "label": "Distance Apart", "value": 15 },
+   {"name": "x_pos", "label": "X Position", "value": 500 },
+   {"name": "y_pos", "label": "Y Position", "value": 500 },
+   {"name": "diameter", "label": "Circle Diameter", "value": 500 },
+   {"name": "min_dist", "label": "Distance Apart", "value": 150 },
    {"name": "size", "label": "Plant Size", "value": 25 },
    {"name": "name", "label": "Plant Name (what it will be called in Farm Designer)", "value": "Circle Plant" },
    {"name": "slug", "label": "Plant Type", "value": "wheat" }
