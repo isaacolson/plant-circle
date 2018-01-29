@@ -15,7 +15,7 @@
    {"name": "diameter", "label": "Circle Diameter", "value": 500 },
    {"name": "min_dist", "label": "Distance Apart (keep above 50)", "value": 150 },
    {"name": "size", "label": "Plant Size", "value": 25 },
-   {"name": "name", "label": "Plant Name (what Farm Designer will call it.)", "value": "Circle Plant" },
+   {"name": "name", "label": "Plant Name (what Farm Designer will call it)", "value": "Circle Plant" },
    {"name": "slug", "label": "Plant Type", "value": "wheat" }
  ]
 }
