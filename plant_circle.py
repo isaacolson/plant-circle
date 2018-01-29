@@ -52,7 +52,7 @@ class Circle():
         num_plants = math.floor(circumference/min_dist)
         sep_angle = 360/num_plants
         
-        #for i in range(int(num_plants))
+        for i in range(int(num_plants)):
             #angle = i*((math.pi/180)*sep_angle)
             #x_adjust = math.cos(angle)*(diameter/2)
             #y_adjust = math.sin(angle)*(diameter/2)
