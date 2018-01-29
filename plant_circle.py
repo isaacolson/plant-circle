@@ -49,12 +49,14 @@ class Circle():
     def add_plants(self):
         'Find max number of plants and add them to the farm designer.'
         circumference = 2*math.pi*(diameter/2)
-        num_plants = math.floor(circumference/min_dist)
+        num_plants = int(math.floor(circumference/min_dist))
         sep_angle = 360/num_plants
         
-        #for i in range(num_plants)
-        #    angle = i*((math.pi/180)*sep_angle)
-        #    self.add_plant(math.cos(angle)*(diameter/2), math.sin(angle)*(diameter/2))
+        for i in range(num_plants)
+            angle = i*((math.pi/180)*sep_angle)
+            x_adjust = math.cos(angle)*(diameter/2)
+            y_adjust = math.sin(angle)*(diameter/2)
+            self.add_plant(x_pos + x_adjust, y_pos + y_adjust)
         log('{} plants added.'.format(num_plants),
             'success')
 
