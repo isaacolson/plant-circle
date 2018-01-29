@@ -53,9 +53,9 @@ class Circle():
         sep_angle = 360/num_plants
         
         for i in range(num_plants)
-            angle = i*((math.pi/180)*sep_angle)
-            x_adjust = math.cos(angle)*(diameter/2)
-            y_adjust = math.sin(angle)*(diameter/2)
+            #angle = i*((math.pi/180)*sep_angle)
+            #x_adjust = math.cos(angle)*(diameter/2)
+            #y_adjust = math.sin(angle)*(diameter/2)
             #self.add_plant(x_pos + x_adjust, y_pos + y_adjust)
         log('{} plants added.'.format(num_plants),
             'success')
