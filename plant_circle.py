@@ -57,7 +57,7 @@ class Circle():
             angle = i*((math.pi/180)*sep_angle)
             x_adjust = math.cos(angle)*(diameter/2)
             y_adjust = math.sin(angle)*(diameter/2)
-            self.add_plant(x_pos + x_adjust, y_pos + y_adjust, slug + str(i))
+            self.add_plant(x_pos + x_adjust, y_pos + y_adjust, slug + '-' + str(i))
         log('{} plants added.'.format(int(num_plants)),
             'success')
 
@@ -69,7 +69,6 @@ if __name__ == '__main__':
     diameter = get_env('diameter')
     min_dist = get_env('min_dist')
     size = get_env('size')
-    #name = get_env('name', str)
     slug = get_env('slug', str)
     
     circle = Circle()
