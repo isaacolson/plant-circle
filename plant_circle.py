@@ -40,7 +40,7 @@ class Circle():
         'Add a plant through the FarmBot Web App API.'
         plant = {'x': str(x), 'y': str(y),
                  'radius': str(size),
-                 'name': name, 'pointer_type': 'GenericPointer', 'openfarm_slug': slug}
+                 'name': name, 'pointer_type': 'Plant', 'openfarm_slug': slug}
         payload = json.dumps(plant)
         r = requests.post(self.api_url + 'points',
                           data=payload, headers=self.headers)
