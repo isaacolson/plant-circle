@@ -4,7 +4,7 @@
  "author": "SAC Hydroponics",
  "description": "Create a circle of plants in the Farm Designer. All variables are in mm.",
  "version": "1.0.1",
- "min_os_version_major": 5,
+ "min_os_version_major": 6,
  "url": "https://raw.githubusercontent.com/isaacolson/plant-circle/master/manifest.json",
  "zip": "https://github.com/isaacolson/plant-circle/archive/master.zip",
  "executable": "python",
