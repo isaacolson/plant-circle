@@ -17,6 +17,6 @@
   {"3": {"name": "min_dist", "label": "Distance apart", "value": "150"}},
   {"4": {"name": "size", "label": "Plant Size", "value": "25"}},
   {"5": {"name": "slug", "label": "Plant Type", "value": "wheat"}}
-}
+  }
 }
 
