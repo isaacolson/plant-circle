@@ -1,20 +1,21 @@
 {
+ "farmware_manifest_version": "2.0.0",
  "package": "Plant Circle",
  "language": "python",
  "author": "SAC Hydroponics",
  "description": "Create a circle of plants in the Farm Designer. All variables are in mm.",
- "version": "1.0.1",
- "min_os_version_major": 6,
+ "package_version": "1.0.2",
+ "farmbot_os_version_requirement": ">= 8.0.0",
  "url": "https://raw.githubusercontent.com/isaacolson/plant-circle/master/manifest.json",
  "zip": "https://github.com/isaacolson/plant-circle/archive/master.zip",
  "executable": "python",
- "args": ["plant-circle-master/plant_circle.py"],
- "config": [
-   {"name": "x_pos", "label": "X Position", "value": 500 },
-   {"name": "y_pos", "label": "Y Position", "value": 500 },
-   {"name": "diameter", "label": "Circle Diameter", "value": 500 },
-   {"name": "min_dist", "label": "Distance Apart (keep above 50)", "value": 150 },
-   {"name": "size", "label": "Plant Size", "value": 25 },
-   {"name": "slug", "label": "Plant Type", "value": "wheat" }
- ]
+ "args": "plant-circle-master/plant_circle.py",
+ "config":
+  {"0": {"name": "x_pos", "label": "X Position", "value": "500"}},
+  {"1": {"name": "y_pos", "label": "Y Position", "value": "500"}},
+  {"2": {"name": "diameter", "label": "Circle Diameter", "value": "500"}},
+  {"3": {"name": "min_dist", "label": "Distance apart", "value": "150"}},
+  {"4": {"name": "size", "label": "Plant Size", "value": "25"}},
+  {"5": {"name": "slug", "label": "Plant Type", "value": "wheat"}}
 }
+
