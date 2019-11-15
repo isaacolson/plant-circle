@@ -10,7 +10,7 @@
  "zip": "https://github.com/isaacolson/plant-circle/archive/master.zip",
  "executable": "python",
  "args": "plant-circle-master/plant_circle.py",
- "config":{
+ "config":
   {"0": {"name": "x_pos", "label": "X Position", "value": "500"},
   "1": {"name": "y_pos", "label": "Y Position", "value": "500"},
   "2": {"name": "diameter", "label": "Circle Diameter", "value": "500"},
